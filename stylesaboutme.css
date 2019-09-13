@@ -1,0 +1,306 @@
+/* font-family: 'Roboto', sans-serif;*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size:10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+body{
+  overflow-x:hidden;
+}
+
+a{
+  text-decoration:none;
+  color: #eee;
+}
+h2{
+  font-weight:900;
+  font-size:2.4em;
+  padding-top:3rem;
+  padding-bottom:4.3rem;
+  padding-left:.5em;
+}
+.contain {
+  padding-left:14.5rem;
+  grid-column: 1/1;
+  grid-row: 2/2;
+padding-bottom: 3rem;
+    width: 270px;
+
+
+}
+
+.contain li {
+    position: relative;
+    list-style: none;
+    margin: 50px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.contain li:before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: rgba(49, 149, 217, .5);
+    border-radius: 1000px;
+}
+
+.contain li:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 0;
+    height: 15px;
+    background-color: #3195D9;
+    border-radius: 1000px;
+    animation-duration: .7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.contain li.il:after {
+    animation-name: il;
+}
+
+@keyframes il {
+    to {
+        width: 94%;
+    }
+}
+
+.contain li.ph:after {
+    animation-name: ph;
+}
+
+@keyframes ph {
+    to {
+        width: 84%;
+    }
+}
+
+.contain li.ht:after {
+    animation-name: ht;
+}
+
+@keyframes ht {
+    to {
+        width: 78%;
+    }
+}
+
+.contain li.c:after {
+    animation-name: c;
+}
+
+@keyframes c {
+    to {
+        width: 89%;
+    }
+}
+.contain li.c:after {
+    animation-name: c;
+}
+
+@keyframes c {
+    to {
+        width: 89%;
+    }
+}
+.contain li.cc:after {
+    animation-name: cc;
+}
+
+@keyframes cc {
+    to {
+        width: 83%;
+    }
+}
+.contain li.ja:after {
+    animation-name: ja;
+}
+
+@keyframes ja {
+    to {
+        width: 68%;
+    }
+}
+.contain li.p:after {
+    animation-name: p;
+}
+
+@keyframes p {
+    to {
+        width: 70%;
+    }
+}
+/*
+.contain li: after{
+  content: "";
+  position:absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 100%
+  height: 15px;
+  background-color: red;
+  border-radius: 1000px;
+}
+*/
+
+
+
+
+
+
+p{
+  font-size:1.5em;
+
+  padding-left:1em;
+}
+
+header{
+  text-align: left;
+
+  padding: .5rem;
+  padding-left: 0rem;
+
+  width: 100%;
+  height: 100vh;
+
+  background: white;
+  background-size: cover;
+}
+#name{
+
+}
+.container{
+  display:grid;
+  grid-template-columns: 1.2fr .3fr 1.2fr;
+  grid-template-rows: .15fr .2fr .5fr .1fr;
+  /*grid-gap: 10px;*/
+  max-width: 120rem;
+  width:90%;
+
+  margin: 0 auto; /*to center*/
+
+}
+
+
+/*  TOP  */
+
+.logo{
+
+  transform: translateX(-100rem);
+  animation: slideIn .75s forwards;
+}
+
+.menubar{
+  padding-bottom:7rem;
+  grid-column: 1/ 4;
+  grid-row: 1/1;
+}
+
+.intro{
+padding-left:3rem;
+text-align:left;
+
+  grid-column: 3/3;;
+  grid-row: 2/2;
+}
+.image{
+  padding-right:5rem;
+  align-items: center;
+  display:flex;
+  justify-content: center;
+
+  grid-column: 2/2;
+  grid-row: 2/2;
+}
+
+footer{
+  padding-right:5rem;
+  text-align: center;
+  padding-top:3rem;
+padding-bottom:2rem;
+  font-size:.75rem;
+  grid-column:1/4;
+  grid-row:4/4;
+
+}
+
+
+
+/*NAVBAR*/
+
+
+nav{
+  padding-top: 3rem;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 1.6rem;
+
+}
+
+nav ul{
+  display: flex;
+
+}
+nav ul li{
+  list-style: none;
+  transform: translateX(100rem);
+  animation: slideIn .75s forwards;
+}
+
+nav ul li a{
+color: black;
+  padding:1rem 0;
+  margin: 0 3rem;
+  position:relative;
+  letter-spacing: 2px;
+}
+nav ul li a:last-child{
+  margin-right:0;
+}
+
+nav ul li a::before,
+nav ul li a::after{
+  content: '';
+  position:absolute;
+  width:100%;
+  height:2px;
+  background-color: #3195D9;
+  left: 0;
+  transform: scaleX(0);
+  transition: all .5s;
+}
+nav ul li a::before{
+  top:0;
+  transform-origin: left;
+}
+nav ul li a::after{
+  bottom:0;
+  transform-origin:right;
+}
+
+nav ul li a:hover::before,
+nav ul li a:hover::after{
+  transform: scaleX(1);
+}
+
+@keyframes slideIn{
+  from{
+  }
+  to{
+    transform: translateX(0);
+  }
+}
