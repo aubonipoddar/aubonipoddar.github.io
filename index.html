@@ -1,113 +1,158 @@
+
+
 <!DOCTYPE html>
-<html lang = "en">
-<head>
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content ="width=device-width, initial-scale=1">
-  <title>Auboni Poddar</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css"
-<body>
-  <header>
-
-    <div class = "container">
-
+<html>
+  <head>
+    <title>Auboni Poddar</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="shortcut icon" type="image/png" href="favicon.png">
+    
+  </head>
+  
+  <body>
+    <div class="wrapper">
+    <header>
        <!--MENU BAR-->
-      <section class = "menubar">
-      <nav>
+       <div class = "menubar">
+        <nav>
+  
+          <a href="index.html"><img class = "logo" style ="width:50px" src = "newlogo-01.png" />
+            <ul>
+              <li><a href = "#start">design</a></li>
+              <li><a href = "csb.html">cs</a></li>
+              <li><a href = "photo.html">art/photos</a></li>
+              <li><a href = "aboutme.html">about me</a></li>
+              <li><a href = "resume.pdf">resume</a></li>
+            </ul>
+        </nav>
+      </div>
+  
+    
+    </header>
+    <main>
+        <div class = "main_project">
+          <button id = "back-to-top-btn"><i class="fas fa-arrow-up"></i></br></button>
+            <div class = "cover" >
+              <div class = "coverphoto" >
+              <img class = "gif" style ="width:97%"src="final2.gif" >
+                <!--HEADER IMAGE/DESCRIPTION-->
+              </div>
+              <div class = "coverheader">
+                <img class = "gif" id="namee" style ="width:100% "src="nametrial81-01.jpg" >
+                <p>I'm currently a student at UC Davis majoring in <span style="font-family:boldbrad;">Design</span> and minoring in <span style="font-family:boldbrad;">Computer Science</span>. <br> Check out where my curiosity has taken me so far! </p>
+              </div>
+            </div>
 
-        <a href="index.html"><img class = "logo" style ="width:50px" src = "logo3.png" />
-          <ul>
-            <li><a href = "#pinpost">work</a></li>
-            <li><a href = "photo.html">art/photos</a></li>
-            <li><a href = "aboutme.html">about me</a></li>
-            <li><a href = "resume.pdf">resume</a></li>
-          </ul>
-      </nav>
-    </section>
-
-     <!--HEADER IMAGE/DESCRIPTION-->
-    <section class = "cover">
-      <img class = "gif" style ="width:100%"src="final2.gif" >
-
-    </section>
-
-
-    <section class = "intro">
-      <img class = "gif" style ="width:100%"src="name.jpg" >
-      <p>I'm currently a student at UC Davis majoring in Design and minoring in Computer Science. <br> Check out where my curiosity has taken me so far! </p>
-    </section>
-
-    <!--WORK-->
-
-    <!--1 -->
-    <!--1 RIGHT-->
-
-    <section id = "pinpost">
-      <a href="pinterest.html"><img style = "width:100%" src="pin.jpg" ></a>
-
-    </section>
-    <!--1 LEFT-->
-    <section class = "pinpostD">
-
-      <h2>pinterest redesign</h2>
-      <p>This is a personal project I did on how I would redesign the mobile app Pinterest.<br>
-      <br>  Tools used: Adobe XD, Photoshop, Illustrator <br><br> Click to view the case study!</p>
-
-    <!--<a    <a href="">pinterest redesign</a></a>-->
-    <!--<a href="#" class="button">view</a>-->
-</section>
-
-  <!--2-->
-    <!--2 LEFT-->
-    <section class = "gallerypost">
-
-          <img class = "gif" style = "width:140%" src="p1.jpg" >
-    </section>
-    <!--2 RIGHT-->
-    <section class = "gallerypostD">
-      <h2>illustrator work</h2>
-      <p>This is an illustrator piece I created that is inspired by my visit to the MoMa in New York! The assignment was to explore two point perspective and various color relationships.
- <br><br>
-        Tools used: Illustrator <br></p>
-    </section>
+            
 
 
-    <!--3-->
-    <!--3 RIGHT-->
-    <section class = "columbiapost">
-      <img style = "width:100%" src="practice.png" >
-    </section>
-      <!--3 LEFT-->
-    <section class = "columbiapostD">
-      <h2>logo design for CU@Home</h2>
-      <p>This is a logo I designed for the club my brother started at Columbia University. <br><br>CU@Home's purpose is to find students, particularly first-years, <br>a home on campus by connecting them with on-campus organizations.<br> This is in effort to help students define their purpose on campus.<br>
-        <br>Tools used: Illustrator <br></p>
-    </section>
+            <div id="start" class="row">
+              <div id = "column1" class="column">
+                <div class="container">
+                  <img src="hulucover.gif" alt="Avatar" class="image">
+                  <a href = "hulu.html" > 
+                  <div class="overlay">
+                    <div class="text">Hulu Redesign</div>
+                    
+                  </div>
+                </a>
+                </div>
+                
+                <div class="container">
+                  
+                  <img src="wicscov3r-01.png" alt="Avatar" class="image">
+                  <a href = "wics.html" > 
+                  <div class="overlay">
+                    <div class="text">Davis Women In Computer Science</br><span style="font-family:brad;">Web Design/Branding </span>
+                    </div>
+                  </div>  </a>
+                </div>
+                
+                <div class="container">
+                  <img src="book.gif" alt="Avatar" class="image">
+                  <a href = "book.html" > 
+                  <div class="overlay">
+                    <div class="text">Paul Rand Book Design</div>
+                  </div></a>
+                </div>
+               
+                <div class="container">
+                  <img src="resizedcoverportfolio-02.png" alt="Avatar" class="image">
+                  <a href = "museum.html" > 
+                  <div class="overlay">
+                    <div class="text">A Day at the Moma</br> <span style="font-family:brad;">Illustrator Piece </span></div>
+                  </div></a>
+                </div>
 
+              
+               
+              </div>
+              <div class="column">
+                <div class="container">
+                  <img src="coronacover.gif" alt="Avatar" class="image">
+                  <a href = "cartshare.html" > 
+                  <div class="overlay">
+                    <div class="text">CartShare:</br><span style="font-family:brad;"> A grocery service app that connects and helps communities durng COVID 19</span></div>
+                  </div></a>
+                </div>
+            
+                <div class="container">
+                  <img src="pinterest.png" alt="Avatar" class="image">
+                  <a href = "pinterestr.html" > 
+                  <div class="overlay">
+                    <div class="text">Pinterest Redesign</div>
+                  </div></a>
+                </div>
+                
+                <div class="container">
+                  <img src="tue.gif" alt="Avatar" class="image">
+                  <a href = "dwib.html" > 
+                  <div class="overlay">
+                    <div class="text">Davis Women in Business </br> <span style="font-family:brad;">Graphics/Branding</span></div>
+                  </div></a>
+                </div>
+               
+                <div class="container">
+                  <img src="columbiacoveri-03.png" alt="Avatar" class="image">
+                  <a href = "columbia.html" > 
+                  <div class="overlay">
+                    <div class="text">C U @ Home Logo Design</div>
+        
+                  </div></a>
+                </div>
+               
+              </div>
+              
+             </div>
+           
+            </div>
+    
+    
+         </div>
+    </main>
 
-      <!--4-->
-    <!--4 RIGHT-->
-    <section class = "bookpost">
-      <img class = "gif" style = "width:100%" src="book.gif" >
-    </section>
-    <!--4 LEFT-->
-    <section class = "bookpostD">
-      <h2>paul rand essay book design</h2>
-      <p>This assignment was about creating a visual representation of Paul Rand's Essay: Design & the Play Instinct.<br><br>
-        The colors and shapes I used were inspired by the work of Paul Rand and his concepts.<br><br>
-        Tools used: InDesign, Photoshop, Illustrator</p>
-
-    <!--<a href="#" class="button">view</a>-->
-    </section>
- <footer>
-   <h1>coded by Auboni with HTML/CSS</h1>
- </footer>
-
-  </header>
+    
+ 
+    <footer>
+   Coded in HTML/CSS by Auboni &#169; 2021
+    </footer>
+    
 </div>
-</body>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+  </body>
 </html>
