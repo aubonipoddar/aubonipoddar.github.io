@@ -22,6 +22,8 @@ chk.addEventListener('change', () => {
   elementnine.classList.toggle("mystylenine");
   var elementten = document.getElementById("whitesssss");
   elementten.classList.toggle("mystyletten");
+  var elementeleven = document.getElementById("swhitesssss");
+  elementeleven.classList.toggle("mystyleeleven");
   
  
 });

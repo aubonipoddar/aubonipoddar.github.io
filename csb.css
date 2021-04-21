@@ -38,6 +38,9 @@ body{
     color: white;
  
   }
+  .mystyleeleven{
+    color: white;
+  }
   .mystyletwo {
    
     color: white;
@@ -57,6 +60,9 @@ body{
    
     color: white;
  
+  }
+  footer p{
+    font-size:16px;
   }
   .mystylefive {
    
