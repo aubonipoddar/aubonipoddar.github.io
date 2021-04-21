@@ -110,7 +110,7 @@ html {
 }
 #title{
   font-family:sboldbrad;
-  color: #454545;
+  
  font-size: 20px;
 }
 p{
@@ -156,6 +156,8 @@ font-size:1.5em;
   }
   .flefttitle p{
     padding-right:20px;
+
+   
     
   
 }
@@ -249,7 +251,9 @@ h2{
 }
 p{
     font-family: brad;
-    color:black;
+ 
+      color: #454545;
+     
 }
 .wrapper{
     padding-left:45px;
