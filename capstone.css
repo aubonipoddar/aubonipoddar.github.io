@@ -52,6 +52,8 @@ h1{
   padding-top: 10px;
   padding-bottom: 10px;
   font-family:sboldbrad;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 
 
@@ -100,7 +102,8 @@ footer{
   padding-right:20px;
 }
 .headers{
-    font-family:brandon;
+  padding-left:160px;
+  font-family:brandon;
     padding-bottom: 10px;
     padding-top: 20px;
     color:#00B2FF;
@@ -172,6 +175,10 @@ h2{
     background-color: #e8fff0;
     border-radius: 10px;
 }
+.appdesc{
+  padding-left: 160px;
+  padding-right: 160px;
+}
 p{
     font-family: brad;
     color:#454545;
@@ -179,23 +186,30 @@ p{
     
 }
 .wrapper{
-    padding-left:45px;
-    padding-right:45px;
+   
     padding-bottom:45px;
     padding-top: 0px;
 }
 .mainimg{
+  padding-left: 160px;
+  padding-right: 160px;
   padding-top:30px;
 }
+
+
+
+
 .main_project{
     display:flex;
     align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-left: 140px;
-  padding-right: 140px;
+  
 }
-
+.newgroup{
+  padding-left: 160px;
+  padding-right: 160px;
+}
 ol {
     list-style: none;
     counter-reset: my-awesome-counter;
@@ -225,7 +239,12 @@ ol li::before {
 
 
 
+#trial{
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color: white;
 
+}
 
 li text{
     list-style-position: outside;
@@ -238,8 +257,9 @@ img{
 .intro_desc{
     display: flex;
     justify-content:space-between;
-  
-    width: 95%;
+    padding-left: 160px;
+    padding-right: 160px;
+    width: 75%;
 }
 .d_list{
 padding:0;
